@@ -9,5 +9,7 @@ O curso tem como objetivo ensinar os conceitos básicos sobre Ruby e o seu frame
 
 * Ruby on Rails
 * Ruby ~ 2.2.6;
+* Bootstrap 3;
+* SQLite;
 
 (documentação em desenvolvimento)
