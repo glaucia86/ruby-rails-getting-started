@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>QuestionsApp</title>
+    <title>Perguntas Mais Buscadas do Universo!</title>
+
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +16,78 @@
   </head>
 
   <body>
-    <%= yield %>
+
+  <!-- Início NavBar -->
+  <nav class="navbar navbar-inverse">
+  	<div class="container-fluid">
+  		<div class="navbar-header">
+  			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+  				<span class="sr-only">Toggle navigation</span>
+  				<span class="icon-bar"></span>
+  				<span class="icon-bar"></span>
+  				<span class="icon-bar"></span>
+  			</button>
+  			<a class="navbar-brand" href="#">História do Universo</a>
+  		</div>
+
+  		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  			<ul class="nav navbar-nav navbar-right">
+  				<li><form><a class="btn btn-success navbar-btn btn-sm">Faça uma Pergunta</a>
+  				</form></li>
+  			</ul>
+  		</div>
+  	</div>
+  </nav>
+  <!-- Fim NavBar -->
+
+  <div class="well">
+  	<h4>O nosso Universo é uma grande imensidão, que nos permite viajar por todas as gálaxias e planetas.</h4>
+  	<p>Este site é dedicado para perguntas sobre a história do Universo.</p>	
+  </div>
+
+  <!-- Início - Media Object -->
+  <div class="container">
+  	<div class="media">
+	  	<div class="media-left">
+	  		<a href="#"></a>
+	  		<img class="media-object" src="http://www.gravatar.com/avatar/424242">
+	  	</div>
+	  	<div class="media-body">
+	        <h4 class="media-heading">user@email.com asked:</h4>
+	        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, expedita. Ullam voluptatem suscipit, modi corrupti assumenda fugiat a qui ex dolorum, architecto nulla quia accusantium, vitae consectetur cum doloribus debitis.
+        <div>
+        </div>
+      </div>
+  	</div>
+
+  	<div class="media">
+	  	<div class="media-left">
+	  		<a href="#"></a>
+	  		<img class="media-object" src="http://www.gravatar.com/avatar/424242">
+	  	</div>
+	  	<div class="media-body">
+	        <h4 class="media-heading">user@email.com asked:</h4>
+	        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, expedita. Ullam voluptatem suscipit, modi corrupti assumenda fugiat a qui ex dolorum, architecto nulla quia accusantium, vitae consectetur cum doloribus debitis.
+        <div>
+        </div>
+      </div>
+  	</div>
+
+  	<div class="media">
+	  	<div class="media-left">
+	  		<a href="#"></a>
+	  		<img class="media-object" src="http://www.gravatar.com/avatar/424242">
+	  	</div>
+	  	<div class="media-body">
+	        <h4 class="media-heading">user@email.com asked:</h4>
+	        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, expedita. Ullam voluptatem suscipit, modi corrupti assumenda fugiat a qui ex dolorum, architecto nulla quia accusantium, vitae consectetur cum doloribus debitis.
+        <div>
+        </div>
+      </div>
+  	</div>
+
+  </div>
+  <!-- Início - Media Object -->
+    
   </body>
 </html>
