@@ -5,4 +5,8 @@ class HomeController < ApplicationController
   def about 
 
   end
+
+  def temp
+  	redirect_to root_path
+  end
 end
